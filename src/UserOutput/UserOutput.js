@@ -3,8 +3,8 @@ import React from 'react';
 function UserOutput(props) {
     return (
         <div>
-            <p>First paragraph</p>
-            <p>Second paragraph</p>
+            <p>In the first paragraph we speak of the name <b>{props.username}</b>.</p>
+            <p>But in the second paragraph we do NOT speak of the name <i>{props.username}.</i></p>
         </div>
     )
 }

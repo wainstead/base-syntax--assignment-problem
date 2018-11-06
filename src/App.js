@@ -4,6 +4,12 @@ import UserInput from './UserInput/UserInput';
 import UserOutput from './UserOutput/UserOutput';
 
 class App extends Component {
+  state = {
+    usernames: [
+      'swain',
+      'ldesslok',
+    ]
+  }
   render() {
     return (
       <div className="App">
@@ -21,8 +27,8 @@ class App extends Component {
         </ol>
 
       <UserInput />
-      <UserOutput />
-      <UserOutput />
+      <UserOutput username={this.state.usernames[0]} />
+      <UserOutput username={this.state.usernames[1]} />
       </div>
     );
   }

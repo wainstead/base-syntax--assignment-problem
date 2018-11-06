@@ -1,8 +1,8 @@
-1. [ ] Create TWO new components: UserInput and UserOutput
-2. [ ] UserInput should hold an input element, UserOutput two paragraphs
-3. [ ] Output multiple UserOutput components in the App component (any
+1. [X] Create TWO new components: UserInput and UserOutput
+2. [X] UserInput should hold an input element, UserOutput two paragraphs
+3. [X] Output multiple UserOutput components in the App component (any
    paragraph texts of your choice)
-4. [ ] Pass a username (of your choice) to UserOutput via props and
+4. [X] Pass a username (of your choice) to UserOutput via props and
    display it there
 5. [ ] Add state to the App component (=> the username) and pass the
    username to the UserOutput component

@@ -2,7 +2,10 @@ import React from 'react';
 
 function UserInput(props) {
     return (
-        <h3>UserInput component</h3>
+        <div>
+        <label>UserInput component</label>
+        <input type="text" />
+        </div>
     )
 }
 
