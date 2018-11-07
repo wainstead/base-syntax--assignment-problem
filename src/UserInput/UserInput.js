@@ -4,7 +4,10 @@ function UserInput(props) {
     return (
         <div>
         <label>UserInput component</label>
-        <input type="text" />
+        <input type="text" 
+        onChange={props.changed} 
+        //value={props.username}
+        />
         </div>
     )
 }
