@@ -14,12 +14,20 @@ class App extends Component {
   userNameChangeHandler = (event) => {
     this.setState({
       usernames: [
-        'Mr. ' + event.target.value,
-        'Ms. ' + event.target.value,
+        event.target.value,
+        event.target.value,
       ]
     })
   }
   render() {
+    const style = {
+      backgroundColor: 'navajowhite',
+      font: 'inherit',
+      border: '1x solid blue',
+      padding: '8px',
+      cursor: 'pointer'
+    };
+
     return (
       <div className="App">
         <ol>
@@ -35,7 +43,8 @@ class App extends Component {
           <li>Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets</li>
         </ol>
 
-      <UserInput 
+      <UserInput
+      style={style}
       changed={this.userNameChangeHandler}
       username={this.state.usernames[0]}
       />
