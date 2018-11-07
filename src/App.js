@@ -20,14 +20,6 @@ class App extends Component {
     })
   }
   render() {
-    const style = {
-      backgroundColor: 'navajowhite',
-      font: 'inherit',
-      border: '1x solid blue',
-      padding: '8px',
-      cursor: 'pointer'
-    };
-
     return (
       <div className="App">
         <ol>
@@ -44,7 +36,6 @@ class App extends Component {
         </ol>
 
       <UserInput
-      style={style}
       changed={this.userNameChangeHandler}
       username={this.state.usernames[0]}
       />
