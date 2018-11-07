@@ -1,7 +1,7 @@
 import React from 'react';
 import './UserOutput.css';
 
-function UserOutput(props) {
+function userOutput(props) {
     return (
         <div>
             <p>In the first paragraph we speak of the name <b>{props.username}</b>.</p>
@@ -10,4 +10,4 @@ function UserOutput(props) {
     )
 }
 
-export default UserOutput;
+export default userOutput;

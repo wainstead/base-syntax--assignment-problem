@@ -1,6 +1,6 @@
 import React from 'react';
 
-function UserInput(props) {
+function userInput(props) {
     return (
         <div>
         <label>UserInput component</label>
@@ -13,4 +13,4 @@ function UserInput(props) {
     )
 }
 
-export default UserInput;
+export default userInput;
